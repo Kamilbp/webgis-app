@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-gis2</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.21/esri/themes/light/main.css">
+    <link rel="stylesheet" href="styles/style.css">   
+    <script src="https://js.arcgis.com/4.21/"></script>
+</head>
+<body>
+    <header>
+        <div class="main_title">
+            <span>Tory Formuły 1</span>
+        </div>
+        <div class="main">          
+            <img class="img_main" src="img/main.jpg" alt="main">
+            <a href="#mapDiv"><img class="strzalka" src="img/strzalka.png" alt="strzalka">
+        </div>
+    </header>
+    <section>
+        <div class="circuites">
+            <a id="p1" href="#mapDiv"><img src="img/Barcelona.jpg" alt="Barcelona" title="Barcelona">
+            <a id="p2" href="#mapDiv"><img src="img/monza.jpg" alt="monza" title="Monza">
+            <a id="p3" href="#mapDiv"><img src="img/brazylia.jpg" alt="brazylia" title="Brazylia">
+            <a id="p4" href="#mapDiv"><img src="img/suzuka.jpg" alt="suzuka" title="Japonia">
+
+        </div>
+        
+        <div id="mapDiv"></div>
+        <div id="toolbarDiv" class="esri-component esri-widget">
+            <button
+              id="distance"
+              class="esri-widget--button esri-interactive esri-icon-measure-line"
+              title="Distance Measurement Tool"
+            ></button>
+            <button
+              id="area"
+              class="esri-widget--button esri-interactive esri-icon-measure-area"
+              title="Area Measurement Tool"
+            ></button>
+            <button
+              id="clear"
+              class="esri-widget--button esri-interactive esri-icon-trash"
+              title="Clear Measurements"
+            ></button>
+          </div>
+    </section>
+    
+    
+</body>
+<script src="scripts/scrypt.js"></script>
+</html>

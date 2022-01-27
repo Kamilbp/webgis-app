@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+   }
+body {
+    background-color: black;
+    height:100vh;
+}
+header{
+    width: 100%;
+}
+header .main_title{
+    height: 10%;
+    text-align: center;
+    background-color: rgb(44, 42, 42);
+    font-size: 75px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+header .main .img_main{
+    
+    width: 100%;
+    height: 90vh;
+}
+header .main{
+    position: relative;
+    text-align: center;
+}
+
+header .main .strzalka{
+    position: absolute;
+    bottom: 3vh;
+    right: 50px;
+    width: 6%;
+    height: 15%;
+}
+section img{
+    height: 20vh;
+    width: 25%;
+    display: block;
+    float: left; 
+
+}
+section img:hover{
+    opacity: 0.5;
+    
+}
+
+#mapDiv{
+    height: 80vh;
+    width: 100%;
+}
+
+.esri-widget--button.active,
+.esri-widget--button.active:hover,
+.esri-widget--button.active:focus {
+  cursor: default;
+  background-color: #999696;
+}
+.esri-widget--button.active path,
+.esri-widget--button.active:hover path,
+.esri-widget--button.active:focus path {
+  fill: #E4E4E4;
+}
+
+#toolbarDiv {
+    position: absolute;
+    top: 183vh;
+    right: 22px;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
