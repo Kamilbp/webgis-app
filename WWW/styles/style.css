@@ -34,7 +34,13 @@ header .main .strzalka{
     right: 50px;
     width: 6%;
     height: 15%;
+    opacity: 70%;
 }
+
+header .main .strzalka:hover{
+    opacity: 100%;
+}
+
 section img{
     height: 20vh;
     width: 25%;
